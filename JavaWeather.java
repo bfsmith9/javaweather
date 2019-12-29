@@ -1,5 +1,7 @@
 /* JavaWeather Program
  * Barry Smith - December 2019
+ * Reads weather forecast, conditions, and radar from NOAA and 
+ * other sources.
  */
 
 import java.awt.*;
