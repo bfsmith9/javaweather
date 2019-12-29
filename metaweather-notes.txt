@@ -1,0 +1,11 @@
+* This URL has NOAA current conditions in text format:
+http://www.weather.gov/view/prodsByState.php?state=VT&prodtype=hourly
+* Need to add a configuration feature. Can do it with dot files in users'
+$HOME directories. Can find location, screensize, etc.
+* How to get out of hard-coded URL's and values?
+* Need to clean up RegExWeather.java. When there's more than one entry for
+ST. ALBANS, it has problems. If it sees two ST. ALBANS lines, it will always
+use the last one. I need it to stop at the first one. Looks like once in a
+while NOAA gives out a huge amount of data accidently, which is why I had to
+increase the array size from 5000 lines to 7000 lines. That's part of what
+clued me in to the problem.

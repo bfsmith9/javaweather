@@ -1,0 +1,20 @@
+
+Created FileReadingObject - now all that file reading activity takes
+place in a separate object. Maybe I can do something similar with
+reading the present conditions.
+
+
+Refresh conditions button is now working. I have the same question about
+that code as I have about the forecast code - can I put all that in a
+function, and perhaps put it in a different file? I also need to go
+through these files more carefully and make sure I understand everything
+well enough. I was wondering about final - did I need all that? Has the
+program in general been done in an OOP way to the extent I learned in
+classes? Next tasks: astronomical conditions, a button to bring up a
+separate window for a larger radar image, and some kind of status window
+that shows what the program is doing (while retrieving the forecast,
+for ex.).
+
+Adding RegExWeatherTesting program; still want to do some more testing
+on this to see if I can remove usage of the array altogether with its
+sometimes 4000+ lines.
