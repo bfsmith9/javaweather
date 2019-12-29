@@ -7,6 +7,11 @@ and this project adheres to <https://semver.org/spec/v2.0.0.html>.
 
 ## [Unreleased]
 
+## [javaweather-2019_1-BFS_9]
+### UPDATED
+- Made GetLargeRada inherit from GetRadar (probably kind of pointless...I think we may really just need the single GetRadar class for all three radar image grabs.) Testing new branch.
+- Made new testing branch - see if the "9" I've added above will work in Git using tags, vs. CVS method.
+
 ## [javaweather-2019_1-BFS]
 ### UPDATED
 - Added some comments to Javaweather.java, including new Javadoc comments.
