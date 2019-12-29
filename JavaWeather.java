@@ -1,5 +1,6 @@
-/* JavaWeather Program
- * Barry Smith - December 2019
+/** Description of JavaWeather Program
+ * @author Barry Smith
+ * @version 1.1 Dec. 29, 2019
  * Reads weather forecast, conditions, and radar from NOAA and 
  * other sources.
  */
@@ -14,8 +15,12 @@ import javax.imageio.*;
 
 public class JavaWeather {
 
+  /** 
+   * Javaweather class - main class for Javaweather. Run this class to start the app.
+   * @throws Exception - Generic error
+   */
   public JavaWeather() throws Exception {
-  // MetaWeather constructor
+  // JavaWeather constructor
 	  new JavaWeatherFrame();
       //weatherframe.setBackground(Color.BLACK);
   }	  // end constructor
@@ -42,7 +47,7 @@ public class JavaWeather {
 
 // Begin class MetaWeatherFrame
 class JavaWeatherFrame extends JFrame {
-    /**
+    /*
 	 Just added this serialization based on warning 
 	 It has something to do with compiler variance.
 	 https://stackoverflow.com/questions/285793/what-is-a-serialversionuid-and-why-should-i-use-it* 

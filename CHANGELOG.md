@@ -7,6 +7,12 @@ and this project adheres to <https://semver.org/spec/v2.0.0.html>.
 
 ## [Unreleased]
 
+## [javaweather-2019_1-BFS]
+### UPDATED
+- Added some comments to Javaweather.java, including new Javadoc comments.
+- Added Javadoc documentation. Problem with 'javadoc error "expression expected" script type eclipse "language servers"' (that's what I searched). I corrected it in the html after generating - not sure if that's right.
+- Moved to Git instead of CVS. Issues with CVS server on the Pi that proved to difficult to resolve, sadly. The documentation on these issues is very old and sketchy. I'll have to figure out how to do version numbers (tags?) and rethink my workflow.
+
 ## [javaweather-2019_1-BFS_7] - 2019-12-27
 ### By <bfsmith9@fastmail.net>
 - Everything seems to be working now. No more data files causing CVS problems; all warnings cleared.
