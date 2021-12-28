@@ -5,8 +5,9 @@ public class GetRegionalRadar {
   public GetRegionalRadar() throws Exception {
   // constructor
   // From NOAA
-    String radarplace = "https://radar.weather.gov/Conus/RadarImg/northeast.gif";
-      //String radarplace = "http://vortex.accuweather.com/adc2010/images/radar/610x480-overlay.gif";
+    String radarplace = "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/07/20212512221_GOES16-ABI-CONUS-07-1250x750.jpg";
+    // String radarplace = "https://radar.weather.gov/Conus/RadarImg/northeast.gif";
+      // String radarplace = "http://vortex.accuweather.com/adc2010/images/radar/610x480-overlay.gif";
   	URL url2 = new URL(radarplace);    
   	URLConnection conn2 = url2.openConnection();
   	InputStream is = conn2.getInputStream();
